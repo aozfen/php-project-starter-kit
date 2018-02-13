@@ -1,0 +1,43 @@
+<?php
+$lang['girisekranmesaji'] = 'Bloguma Hoşgeldin';
+$lang['aramakutusubasligi'] = 'Blogumda arama yapabilirsin';
+$lang['pharama'] = 'Arama yap...';
+$lang['hakkimda'] = 'hakkımda';
+$lang['website'] = 'Web sitesine mi ihtiyacın var ?';
+$lang['kategoriler'] = 'Kategoriler';
+$lang['devaminigor'] = 'Devamını Gör';
+$lang['anasayfapostbaslik'] = 'Blogdan rastgele yazılar'; 
+$lang['blogageridon'] = 'Bloga Geri Dön'; 
+$lang['paketleregeridon'] = 'Paketlere geri dön';
+$lang['hosunuzagidebilir'] = 'Bunlarda hoşunuza gidebilir';
+$lang['yorumlar'] = 'Yorum';
+$lang['okunma'] = 'Okunma';
+$lang['dahafazla'] = 'Daha Fazla Gör';
+$lang['sosyal'] = 'Sosyal medya da ben';
+$lang['banaulas'] = 'Bana ulas';
+$lang['oncekiyazi'] = 'Bir önce ki yazi';
+$lang['sonrakiyazi'] = 'Bir sonra ki yazi';
+$lang['yanitla'] = 'yanıtla';
+$lang['yanitlandi'] = ' için yanıtlandı.'; 
+$lang['yorumyap'] = 'Yorum Yap';
+$lang['bay'] = 'Bay';
+$lang['bayan'] = 'Bayan'; 
+$lang['yanitiptal'] = 'Yanıtı İptal Et';
+$lang['yorumugonder'] = 'Yorumu Gönder';
+$lang['banayaz'] = 'Bana yaz';
+$lang['gonder'] = 'Gönder';
+$lang['yorumyok'] = 'Bu gönderi hakkında hiç yorum yapılmamış. İlk yorumu sen yapabilirsin  :)';
+
+// AYLAR
+$lang['ocak'] = 'Ocak';
+$lang['subat'] = 'Şubat';
+$lang['mart'] = 'Mart';
+$lang['nisan'] = 'Nisan';
+$lang['mayis'] = 'Mayıs';
+$lang['haziran'] = 'Haziran';
+$lang['temmuz'] = 'Temmuz';
+$lang['agustos'] = 'Ağustos';
+$lang['eylul'] = 'Eylül';
+$lang['ekim'] = 'Ekim';
+$lang['kasim'] = 'Kasım';
+$lang['aralik'] = 'Aralık';

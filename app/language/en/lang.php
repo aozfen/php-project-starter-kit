@@ -1,0 +1,51 @@
+<?php
+
+$lang['ana sayfa'] = 'Home';
+$lang['iletisim'] = 'contact';
+$lang['hakkimda'] = 'about me';
+$lang['website'] = 'Are you web page request ?';
+$lang['kategoriler'] = 'Categories';
+$lang['girisekranmesaji'] = 'Hi, Welcome Blogging';
+$lang['aramakutusubasligi'] = 'You can search on my blog';
+$lang['pharama'] = 'Search...';
+$lang['devaminigor'] = 'See All Post';
+$lang['anasayfapostbaslik'] = 'Random sharing from blog';
+$lang['blogageridon'] = 'Back to blog';
+$lang['paketleregeridon'] = 'Back to packages';
+$lang['kategori'] = 'category';
+$lang['hosunuzagidebilir'] = 'YOU MAY ALSO LIKE';
+$lang['yorumlar'] = 'Comments';
+$lang['okunma'] = 'View';
+$lang['dahafazla'] = 'See More';
+$lang['sosyal'] = 'socail media';
+$lang['banaulas'] = 'Reach Me';
+$lang['oncekiyazi'] = 'PREVIOUS POST';
+$lang['sonrakiyazi'] = 'NEXT POST';
+$lang['yanitla'] = 'replay'; 
+$lang['yanitlandi'] = '  for answered.'; 
+$lang['yorum'] = 'Comment';
+$lang['ad'] = 'name';
+$lang['cinsiyet'] = 'gender';
+$lang['bay'] = 'Male';
+$lang['bayan'] = 'Women'; 
+$lang['yorumyap'] = 'Leave a comment';
+$lang['yanitiptal'] = 'Cancel Reply';
+$lang['yorumugonder'] = 'Post Comment';
+$lang['banayaz'] = 'DROP ME A LINE';
+$lang['gonder'] = 'Send';
+$lang['mesaj'] = 'message';
+$lang['yorumyok'] = 'There are no comments about this post. You can make the first comment  :)';
+
+// AYLAR
+$lang['ocak'] = 'January';
+$lang['subat'] = 'February';
+$lang['mart'] = 'March';
+$lang['nisan'] = 'April';
+$lang['mayis'] = 'May';
+$lang['haziran'] = 'June';
+$lang['temmuz'] = 'July';
+$lang['agustos'] = 'August';
+$lang['eylul'] = 'September';
+$lang['ekim'] = 'October';
+$lang['kasim'] = 'November';
+$lang['aralik'] = 'December';

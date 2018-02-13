@@ -1,0 +1,133 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/materials/materials.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';Montserrat
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(../fonts/montserrat/montserratwf2.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(../fonts/montserrat/montserratwff2.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+@font-face {
+font-family: 'Billabong';
+font-style: normal;
+font-weight: normal;
+src: local('Billabong'), url('../fonts/billabong/Billabong.woff') format('woff');
+}
+
+
+
+
+
+
+
+@font-face {
+font-family: 'Lato TR Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Regular'), url('../fonts/lato/LatoTR-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Light';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Light'), url('../fonts/lato/LatoTR-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Hairline';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Hairline'), url('../fonts/lato/LatoTR-Hairline.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Black';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Black'), url('../fonts/lato/LatoTR-Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Light Italic'), url('../fonts/lato/LatoTR-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Italic'), url('../fonts/lato/LatoTR-Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Hairline Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Hairline Italic'), url('../fonts/lato/LatoTR-HairlineItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Bold Italic'), url('../fonts/lato/LatoTR-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Black Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Black Italic'), url('../fonts/lato/LatoTR-BlackItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Lato TR Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Lato TR Bold'), url('../fonts/lato/LatoTR-Bold.woff') format('woff');
+}

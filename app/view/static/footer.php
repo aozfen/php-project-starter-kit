@@ -36,9 +36,12 @@
         </div>  
     </footer>
 
-    <script type="text/javascript" src="<?=asset_url('scripts/jquery-1.8.0.min.js');?>" ></script>
-	<script type="text/javascript" src="<?=asset_url('scripts/main.js');?>" ></script>
-	<script type="text/javascript" src="<?=asset_url('scripts/newWaterfall.js');?>"></script>
-    <script type="text/javascript" src="<?=asset_url('scripts/preloader.js');?>"></script>
+    <?php
+  
+        foreach ($site['files']['js'] as $key => $value) {
+            echo $value;
+        }
+    
+    ?>
 </body>
 </html>

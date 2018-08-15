@@ -1,18 +1,4 @@
-<?php 
-/*session_start();
- if (@$_SESSION['admin_login'] != 1) {
-   header("location: login"); 
-  }
 
-require 'system/system.php';
-require 'system/config.php';
-require 'system/url.php';
-require 'system/function.php';
-*/
-$gelen_kutusu_sayi_query = $db->query("Select id from tbl_iletisim where durum = 1", PDO::FETCH_ASSOC);
-$num_gelen = $gelen_kutusu_sayi_query->rowCount();
-
- ?>
 
 <!DOCTYPE html>
 <html>
@@ -25,21 +11,15 @@ $num_gelen = $gelen_kutusu_sayi_query->rowCount();
 
 
   <link rel="shortcut icon" href="<?=admin_asset_url('img/meta/logo-mins.png')?>" type="image/x-icon" />
-  <link rel="stylesheet" href="<?=admin_asset_url('bootstrap/css/bootstrap.min.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/datatables/dataTables.bootstrap.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('fonts/font-awesome-4.7.0/css/font-awesome.min.css')?>">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="stylesheet" href="<?=admin_asset_url('dist/css/AdminLTE.min.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('dist/css/skins/_all-skins.min.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/iCheck/all.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/select2/select2.min.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/morris/morris.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/jvectormap/jquery-jvectormap-1.2.2.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/datepicker/datepicker3.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/daterangepicker/daterangepicker.css')?>">
-  <link rel="stylesheet" href="<?=admin_asset_url('plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')?>">
-  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+  <?php
+  
+   foreach ($admin['files']['css'] as $key => $value) {
+      echo $value;
+   }
+  
+  ?>
+
 
 
 

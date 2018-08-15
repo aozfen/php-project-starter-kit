@@ -11,6 +11,8 @@ if(!file_exists(controller('admin/' . url(1)))){
 if(!session('login')){
     $_url[1] = 'login';
 }
+$CSS_JS_FILE = new CSS_JS_FILELOADER;
+$admin['files'] = $CSS_JS_FILE->AdminLoad('index');
 
 $admin['menu'] = [
     'index' => [

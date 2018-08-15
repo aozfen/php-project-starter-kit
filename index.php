@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Web sitesine gelen isteğe karşılık yönlendirme bloğu
+ */
 require 'app/init.php';
 
 $_url = get('url');

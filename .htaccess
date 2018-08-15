@@ -1,2 +1,6 @@
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+
 RewriteEngine On
 RewriteRule ^([0-9a-zA-Z-_/]+)$ index.php?url=$1

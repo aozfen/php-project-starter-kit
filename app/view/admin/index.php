@@ -1,27 +1,6 @@
 <?php require view('admin/static/header') ?>
 
-<?php 
 
- $query_makale = $db->query("Select id from tbl_posts", PDO::FETCH_ASSOC);
- $makale_num = $query_makale->rowCount();
-
-
- $query_yorum = $db->query("Select id from tbl_yorumlar", PDO::FETCH_ASSOC); 
- $yorum_num = $query_yorum->rowCount();
-
- $query_mail = $db->query("Select id from tbl_iletisim", PDO::FETCH_ASSOC);
- $mail_num = $query_mail->rowCount();
-
-
-
- $query_okunma = $db->prepare('SELECT SUM(goruntuleme) AS total FROM tbl_posts');
- $query_okunma ->execute();
- 
- if($data = $query_okunma ->fetch(PDO::FETCH_ASSOC)) {
-  $okunma_array = $data['total'];
- }
-
-?>
 
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -249,7 +228,7 @@
                 <?php
     
 
-                $data = array();
+             /*   $data = array();
                 $query = $db->query("Select
                 tbl_message.id,
                 tbl_message.gonderen_id,
@@ -293,7 +272,7 @@
                         <!-- /.item -->
                 <?php
                         }
-                }
+                }*/
                 ?>
                 
           

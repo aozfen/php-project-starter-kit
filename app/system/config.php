@@ -4,18 +4,18 @@ $config = array();
 
 $config['db'] = [
   'host' => 'localhost',
-  'name' => 'my_blog',
+  'name' => 'personel',
   'user' => 'root',
-  'pass' => ''
+  'pass' => 'root'
 ];
 
 @$dil = $_COOKIE['lang'];
-if(empty($dil)) { $config['default_language'] = 'tr'; }
-else  
-   {
-   	if($dil == 'tr' || $dil == 'en') $config['default_language'] = $dil; 
-   	else  $config['default_language'] = 'tr'; 	
-   }
+if(empty($dil)) { 
+  $config['default_language'] = 'tr'; 
+}else{
+  if($dil == 'tr' || $dil == 'en') $config['default_language'] = $dil; 
+  else  $config['default_language'] = 'tr'; 	
+}
 
 
 
